@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Taller Diag",
+    "slug": "taller-diag",
+    "scheme": "tallerdiag",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "plugins": ["expo-router"],
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.tuempresa.tallerdiag" },
+    "android": {
+      "package": "com.tuempresa.tallerdiag",
+      "adaptiveIcon": {
+        "backgroundColor": "#16202B",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": { "bundler": "metro", "output": "single", "favicon": "./assets/favicon.png" }
+  }
+}
